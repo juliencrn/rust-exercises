@@ -2,7 +2,8 @@
 // mod fibonacci;
 // mod degree_converter;
 // mod vectors;
-mod string_game;
+// mod string_game;
+mod pig_latin;
 
 // pub mod hello;
 
@@ -12,9 +13,10 @@ mod string_game;
 // use vectors::mod_vectors;
 
 fn main() {
+    println!("Hello, world!");
     // mod_hello::demo();
     // mod_fibonacci::print_fibonacci();
     // mod_degree_converter::demo();
     // mod_vectors::demo()
-    crate::string_game::mod_string_game::demo();
+    // crate::string_game::mod_string_game::demo();
 }
